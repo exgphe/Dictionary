@@ -73,6 +73,10 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChangeFrame), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        self.textField.becomeFirstResponder()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
