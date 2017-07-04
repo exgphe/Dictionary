@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,25 +22,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-kE-BVl">
-                                <rect key="frame" x="369" y="541" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="7mX-85-cRb"/>
-                                </constraints>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-kE-BVl">
+                                <rect key="frame" x="20" y="1062" width="794" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
                                 <connections>
-                                    <action selector="editingDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="KI0-PV-FQJ"/>
+                                    <action selector="hitSearch:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bDi-Kp-gnB"/>
                                 </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Mb1-kE-BVl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MFc-tH-qzN"/>
-                            <constraint firstItem="Mb1-kE-BVl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vyV-iX-aT2"/>
+                            <constraint firstItem="Mb1-kE-BVl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1Y1-Ut-RyD"/>
+                            <constraint firstItem="Mb1-kE-BVl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hPL-PO-Aba"/>
+                            <constraint firstAttribute="bottom" secondItem="Mb1-kE-BVl" secondAttribute="bottom" constant="20" symbolic="YES" id="hve-w2-lax"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="Mb1-kE-BVl" id="ZGS-no-7Gi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
