@@ -22,7 +22,6 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         if let word = sender.text {
             if (UIReferenceLibraryViewController.dictionaryHasDefinition(forTerm: word)) {
                 sender.endEditing(false)
-                self.dismiss(animated: true, completion: nil)
                 definitionViewController = UIReferenceLibraryViewController.init(term: word)
                 definitionViewController.modalPresentationStyle = .popover
                 definitionViewController.popoverPresentationController?.permittedArrowDirections = .down
