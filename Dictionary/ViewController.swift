@@ -36,7 +36,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
         return .none
     }
-    func keyboardWillChangeFrame(_ notification: NSNotification) {
+    @objc func keyboardWillChangeFrame(_ notification: NSNotification) {
         if let userInfo = notification.userInfo,
             let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
             //            let beginKeyboardRect = userInfo[UIKeyboardFrameBeginUserInfoKey] as? CGRect,
