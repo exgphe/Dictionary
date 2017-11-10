@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
             let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
             //            let beginKeyboardRect = userInfo[UIKeyboardFrameBeginUserInfoKey] as? CGRect,
             let endKeyboardRect = userInfo[UIKeyboardFrameEndUserInfoKey] as? CGRect {
-            print(endKeyboardRect)
+//            print(endKeyboardRect)
             //            let yOffset = endKeyboardRect.origin.y - beginKeyboardRect.origin.y
 //            var finalFrame = textField.frame
 //            finalFrame.origin.y = endKeyboardRect.origin.y - 20 - finalFrame.height
