@@ -28,7 +28,31 @@ class DictionaryUITests: XCTestCase {
         super.tearDown()
     }
     
+    
+    
     func testExample() {
+        let app = XCUIApplication()
+        let button = app/*@START_MENU_TOKEN@*/.keyboards.buttons["키보드 가리기"]/*[[".keyboards.buttons[\"키보드 가리기\"]",".buttons[\"키보드 가리기\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
+        let textField = app.textFields["검색..."]
+        button.tap()
+        XCTAssert(textField.frame.minY>0)
+        
+        textField.tap()
+        button.tap()
+        textField.tap()
+        textField.typeText("test")
+        
+        let searchButton = app/*@START_MENU_TOKEN@*/.keyboards.buttons["Search"]/*[[".keyboards.buttons[\"Search\"]",".buttons[\"Search\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
+        searchButton.tap()
+        XCUIDevice.shared.orientation = .landscapeLeft
+        XCUIDevice.shared.orientation = .portrait
+        XCUIDevice.shared.orientation = .faceUp
+        app/*@START_MENU_TOKEN@*/.otherElements["PopoverDismissRegion"]/*[[".otherElements[\"팝업 닫기\"]",".otherElements[\"PopoverDismissRegion\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        textField.tap()
+        app/*@START_MENU_TOKEN@*/.textFields["검색..."].buttons["텍스트 지우기"]/*[[".textFields[\"검색...\"].buttons[\"텍스트 지우기\"]",".buttons[\"텍스트 지우기\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.tap()
+        searchButton.tap()
+        textField.typeText("\n")
+        button.tap()
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
