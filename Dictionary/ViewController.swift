@@ -39,9 +39,9 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     }
     @objc func keyboardWillShow(_ notification: NSNotification) {
         if let userInfo = notification.userInfo,
-            let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
+            let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
             //            let beginKeyboardRect = userInfo[UIKeyboardFrameBeginUserInfoKey] as? CGRect,
-            let endKeyboardRect = userInfo[UIKeyboardFrameEndUserInfoKey] as? CGRect {
+            let endKeyboardRect = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
             //            print(endKeyboardRect)
             //            let yOffset = endKeyboardRect.origin.y - beginKeyboardRect.origin.y
             //            var finalFrame = textField.frame
@@ -77,7 +77,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     
     @objc func keyboardWillHide(_ notification: NSNotification) {
         if let userInfo = notification.userInfo,
-            let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval {
+            let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval {
             bottomConstraint.constant = -20
             UIView.animate(withDuration: duration, animations: {
                 self.textField.superview?.layoutIfNeeded()
@@ -95,8 +95,8 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChangeFrame), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
