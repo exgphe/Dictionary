@@ -21,9 +21,9 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     
     @IBAction func hitSearch(_ sender: UITextField) {
         if let word = sender.text {
-            if (UIReferenceLibraryViewController.dictionaryHasDefinition(forTerm: word)) {
+            if true {
                 sender.endEditing(false)
-                definitionViewController = UIReferenceLibraryViewController.init(term: word)
+                definitionViewController = UIReferenceLibraryViewController(term: word)
                 definitionViewController.modalPresentationStyle = .popover
                 definitionViewController.popoverPresentationController?.permittedArrowDirections = .down
                 definitionViewController.popoverPresentationController?.sourceView = textField
