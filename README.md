@@ -10,4 +10,4 @@ A very simple Dictionary app for iPhone and iPad that uses built-in dictionary f
 - Dark Mode
 
 ## Note
-As the official developer document mentioned, "A UIReferenceLibraryViewController object should not be used to display wordlists, create a standalone dictionary app, or republish the content in any form". Therefore, it is not recommended to submit this app directly to the App Store.
+As the [official developer document](https://developer.apple.com/documentation/uikit/uireferencelibraryviewcontroller) mentioned, "A UIReferenceLibraryViewController object should not be used to display wordlists, create a standalone dictionary app, or republish the content in any form". Therefore, it is not recommended to submit this app directly to the App Store.
