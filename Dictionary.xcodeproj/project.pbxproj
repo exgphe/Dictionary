@@ -15,6 +15,7 @@
 		01C49E711F0B9F1D0021306B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C49E6F1F0B9F1D0021306B /* LaunchScreen.storyboard */; };
 		01C49E7C1F0B9F1E0021306B /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C49E7B1F0B9F1E0021306B /* DictionaryTests.swift */; };
 		01C49E871F0B9F1E0021306B /* DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C49E861F0B9F1E0021306B /* DictionaryUITests.swift */; };
+		01CD589424E41EA400E2B793 /* screenshot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01CD589324E41EA400E2B793 /* screenshot.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,9 @@
 		01C49E821F0B9F1E0021306B /* DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C49E861F0B9F1E0021306B /* DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUITests.swift; sourceTree = "<group>"; };
 		01C49E881F0B9F1E0021306B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CD589224E41C8F00E2B793 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		01CD589324E41EA400E2B793 /* screenshot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpeg; sourceTree = "<group>"; };
+		01CD589524E4211A00E2B793 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,9 @@
 		01C49E5A1F0B9F1D0021306B = {
 			isa = PBXGroup;
 			children = (
+				01CD589524E4211A00E2B793 /* LICENSE */,
+				01CD589324E41EA400E2B793 /* screenshot.jpeg */,
+				01CD589224E41C8F00E2B793 /* README.md */,
 				01C49E651F0B9F1D0021306B /* Dictionary */,
 				01C49E7A1F0B9F1E0021306B /* DictionaryTests */,
 				01C49E851F0B9F1E0021306B /* DictionaryUITests */,
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CD589424E41EA400E2B793 /* screenshot.jpeg in Resources */,
 				01C49E711F0B9F1D0021306B /* LaunchScreen.storyboard in Resources */,
 				01C49E6E1F0B9F1D0021306B /* Assets.xcassets in Resources */,
 				01C49E6C1F0B9F1D0021306B /* Main.storyboard in Resources */,

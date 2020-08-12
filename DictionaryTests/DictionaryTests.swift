@@ -3,7 +3,7 @@
 //  DictionaryTests
 //
 //  Created by Xiaolin Wang on 04/07/2017.
-//  Copyright © 2017 Pride1952. All rights reserved.
+//  Copyright © 2017 Xiaolin Wang. All rights reserved.
 //
 
 import XCTest
