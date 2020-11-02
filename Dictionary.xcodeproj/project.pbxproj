@@ -56,6 +56,9 @@
 		01C49E821F0B9F1E0021306B /* DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C49E861F0B9F1E0021306B /* DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUITests.swift; sourceTree = "<group>"; };
 		01C49E881F0B9F1E0021306B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C7EA90254FF600001A41B7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		01C7EA91254FF600001A41B7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01C7EA92254FF600001A41B7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01CD589224E41C8F00E2B793 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		01CD589324E41EA400E2B793 /* screenshot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpeg; sourceTree = "<group>"; };
 		01CD589524E4211A00E2B793 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -238,6 +241,7 @@
 				Base,
 				fr,
 				ko,
+				ja,
 			);
 			mainGroup = 01C49E5A1F0B9F1D0021306B;
 			productRefGroup = 01C49E641F0B9F1D0021306B /* Products */;
@@ -328,6 +332,7 @@
 				013E20D21F0C17E00011B609 /* Base */,
 				013E20D41F0C17E30011B609 /* fr */,
 				013FBD801F55601000806CE6 /* ko */,
+				01C7EA92254FF600001A41B7 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 				01C49E6B1F0B9F1D0021306B /* Base */,
 				013E20C81F0C14C10011B609 /* fr */,
 				013FBD7E1F55601000806CE6 /* ko */,
+				01C7EA90254FF600001A41B7 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 				01C49E701F0B9F1D0021306B /* Base */,
 				013E20C91F0C14C10011B609 /* fr */,
 				013FBD7F1F55601000806CE6 /* ko */,
+				01C7EA91254FF600001A41B7 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -478,7 +485,7 @@
 				INFOPLIST_FILE = Dictionary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -493,7 +500,7 @@
 				INFOPLIST_FILE = Dictionary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
