@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0125027025C4187D00B0A6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125026F25C4187D00B0A6FA /* SceneDelegate.swift */; };
 		013E20D11F0C17E00011B609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013E20D31F0C17E00011B609 /* InfoPlist.strings */; };
 		01C49E671F0B9F1D0021306B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C49E661F0B9F1D0021306B /* AppDelegate.swift */; };
 		01C49E691F0B9F1D0021306B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C49E681F0B9F1D0021306B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0125026F25C4187D00B0A6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		013E20C81F0C14C10011B609 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		013E20C91F0C14C10011B609 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		013E20CD1F0C17870011B609 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				01C49E6F1F0B9F1D0021306B /* LaunchScreen.storyboard */,
 				013E20CD1F0C17870011B609 /* Info.plist */,
 				013E20D31F0C17E00011B609 /* InfoPlist.strings */,
+				0125026F25C4187D00B0A6FA /* SceneDelegate.swift */,
 			);
 			path = Dictionary;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				01C49E691F0B9F1D0021306B /* ViewController.swift in Sources */,
 				01C49E671F0B9F1D0021306B /* AppDelegate.swift in Sources */,
+				0125027025C4187D00B0A6FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -483,12 +487,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HYW2VTE2N;
 				INFOPLIST_FILE = Dictionary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -498,12 +503,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HYW2VTE2N;
 				INFOPLIST_FILE = Dictionary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
