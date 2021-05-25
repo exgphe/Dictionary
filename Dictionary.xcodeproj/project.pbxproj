@@ -215,7 +215,7 @@
 				TargetAttributes = {
 					01C49E621F0B9F1D0021306B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6HYW2VTE2N;
+						DevelopmentTeam = J6PK5KHJJ2;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -485,9 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
 				INFOPLIST_FILE = Dictionary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
@@ -501,9 +501,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
 				INFOPLIST_FILE = Dictionary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = exgphe.Dictionary;
