@@ -18,7 +18,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search..." textAlignment="natural" adjustsFontForContentSizeCategory="YES" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-kE-BVl">
                                 <rect key="frame" x="16" y="756" width="358" height="34"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <action selector="hitSearch:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bDi-Kp-gnB"/>
