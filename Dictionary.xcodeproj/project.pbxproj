@@ -47,6 +47,9 @@
 		01360F82268DCF6500CCC3C8 /* eo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eo; path = eo.lproj/Main.strings; sourceTree = "<group>"; };
 		01360F83268DCF6500CCC3C8 /* eo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eo; path = eo.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		01360F84268DCF6500CCC3C8 /* eo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eo; path = eo.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01360F85268DD5D200CCC3C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		01360F86268DD5D300CCC3C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01360F87268DD5D300CCC3C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		013E20C81F0C14C10011B609 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		013E20C91F0C14C10011B609 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		013E20CD1F0C17870011B609 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -257,6 +260,7 @@
 				"zh-Hans",
 				"zh-Hant",
 				eo,
+				ar,
 			);
 			mainGroup = 01C49E5A1F0B9F1D0021306B;
 			productRefGroup = 01C49E641F0B9F1D0021306B /* Products */;
@@ -352,6 +356,7 @@
 				01360F7E268DCF2000CCC3C8 /* zh-Hans */,
 				01360F81268DCF2900CCC3C8 /* zh-Hant */,
 				01360F84268DCF6500CCC3C8 /* eo */,
+				01360F87268DD5D300CCC3C8 /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -366,6 +371,7 @@
 				01360F7C268DCF1F00CCC3C8 /* zh-Hans */,
 				01360F7F268DCF2900CCC3C8 /* zh-Hant */,
 				01360F82268DCF6500CCC3C8 /* eo */,
+				01360F85268DD5D200CCC3C8 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -380,6 +386,7 @@
 				01360F7D268DCF1F00CCC3C8 /* zh-Hans */,
 				01360F80268DCF2900CCC3C8 /* zh-Hant */,
 				01360F83268DCF6500CCC3C8 /* eo */,
+				01360F86268DD5D300CCC3C8 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
