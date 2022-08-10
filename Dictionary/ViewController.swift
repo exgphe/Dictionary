@@ -30,6 +30,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
                 definitionViewController.popoverPresentationController?.delegate = self
                 setUpLayoutForPopover()
                 self.present(definitionViewController, animated: true, completion: nil)
+                self.view.window?.windowScene?.title = word
             }
         }
     }
@@ -37,6 +38,11 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
         return .none
     }
+    
+    func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
+        self.view.window?.windowScene?.title = ""
+    }
+    
     @objc func keyboardWillShow(_ notification: NSNotification) {
         if let userInfo = notification.userInfo,
             let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
