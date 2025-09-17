@@ -2,35 +2,16 @@
 //  DictionaryTests.swift
 //  DictionaryTests
 //
-//  Created by Xiaolin Wang on 04/07/2017.
-//  Copyright © 2017 Xiaolin Wang. All rights reserved.
+//  Created by Xiaolin Wang on 09/06/2025.
 //
 
-import XCTest
+import Testing
 @testable import Dictionary
 
-class DictionaryTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+struct DictionaryTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+
 }
